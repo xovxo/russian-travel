@@ -1,0 +1,10 @@
+.lead__image_map {
+  background-image: url(../../../../images/lead_map.svg);
+  background-size: contain;
+  height: 262.99px;
+  margin: 0 auto;
+  width: 937.09px;
+  margin-top: 90.21px;
+  text-align: center;
+  background-repeat: no-repeat;
+}
