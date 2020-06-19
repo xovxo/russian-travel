@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../Inter-3.13/Inter_Web/inter.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/lead/lead.css);
 
 .page {
   background-color: #2a2c2f;
