@@ -5,6 +5,8 @@
   display: grid;
 }
 
+/* пробный комит */
+
 @media screen and (min-width: 320px) {
   .photo-grid {
     grid-template-columns: repeat(1, 288px);
