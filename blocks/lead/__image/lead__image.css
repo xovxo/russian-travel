@@ -3,10 +3,8 @@
 .lead__image {
   background-image: url(../../../images/lead_girl_foto.svg);
   background-repeat: no-repeat;
-  height: 615px;
   margin: 0 auto;
-  width: 984px;
   display: flex;
   flex-direction: column;
-  margin-top: 64px;
+  background-size: contain;
 }

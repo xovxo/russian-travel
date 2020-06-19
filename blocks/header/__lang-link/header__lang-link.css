@@ -3,9 +3,6 @@
   border: none;
   color: white;
   background-color: inherit;
-  font-family: Inter;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .header__lang-link:last-child {
