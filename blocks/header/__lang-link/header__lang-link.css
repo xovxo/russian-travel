@@ -1,0 +1,22 @@
+.header__lang-link {
+  margin: 0 18px 0 0;
+  border: none;
+  color: white;
+  background-color: inherit;
+  font-family: Inter;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.header__lang-link:last-child {
+  margin-right: 0;
+}
+
+.header__lang-link:hover {
+  cursor: pointer;
+}
+
+.header__lang-link:focus {
+  text-decoration: underline;
+  outline: none;
+}

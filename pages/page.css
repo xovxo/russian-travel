@@ -1,2 +1,9 @@
-@import url(blocks/header/header.css);
-/* бла */
+@import url(../vendor/normalize.css);
+@import url(../Inter-3.13/Inter_Web/inter.css);
+@import url(../blocks/header/header.css);
+
+.page {
+  background-color: #2a2c2f;
+  font-family: Inter;
+  color: #ffffff;
+}
