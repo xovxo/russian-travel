@@ -1,4 +1,13 @@
-@import url(_no-bold/intro__list-item_no-bold.css);
-
 .intro__list-item {
+  font-weight: bold;
+  display: flex;
+  margin: 0;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.intro__list-item p {
+  font-weight: normal;
+  margin: 0;
+  margin-left: 10px;
 }
