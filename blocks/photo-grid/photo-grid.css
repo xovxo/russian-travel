@@ -12,10 +12,6 @@
     max-width: 288px;
     margin-top: 64px;
   }
-
-  .photo-grid__item {
-    min-height: 216px;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -24,9 +20,6 @@
     grid-gap: 16px;
     max-width: 720px;
     margin-top: 88px;
-  }
-  .photo-grid__item {
-    min-height: 264px;
   }
 }
 
@@ -37,9 +30,6 @@
     max-width: 928px;
     margin-top: 92px;
   }
-  .photo-grid__item {
-    min-height: 225px;
-  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -47,8 +37,5 @@
     grid-template-columns: repeat(4, 284px);
     grid-gap: 16px;
     max-width: 1184px;
-  }
-  .photo-grid__item {
-    min-height: 213px;
   }
 }
