@@ -1,0 +1,28 @@
+@import url(__url-heading/place__website__url-heading.css);
+@import url(__link/place__website__link.css);
+
+@media screen and (min-width: 320px) {
+  .place__website {
+    height: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .place__website {
+    height: auto;
+    margin-top: 30px;
+    margin-left: 48px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place__website {
+    margin-left: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place__website {
+    margin-left: 40px;
+  }
+}
