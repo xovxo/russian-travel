@@ -1,16 +1,16 @@
-.place__website__url-heading {
+.place__website_url-heading {
   margin: 0;
 }
 @media screen and (min-width: 320px) {
-  .place__website__url-heading {
+  .place__website_url-heading {
     color: #2a2c2f;
     height: 0;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .place__website__url-heading {
-    color: white;
+  .place__website_url-heading {
+    color: #aaaaaa;
     margin-bottom: 12px;
     height: auto;
     font-size: 12px;
@@ -20,7 +20,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .place__website__url-heading {
+  .place__website_url-heading {
     line-height: 170%;
   }
 }

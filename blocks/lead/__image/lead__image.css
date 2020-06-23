@@ -1,8 +1,4 @@
-@import url(_map/lead__image_map.css);
-
 .lead__image {
-  background-image: url(../../../images/lead_girl_foto.svg);
-  background-repeat: no-repeat;
   margin: 0 auto;
   display: flex;
   flex-direction: column;

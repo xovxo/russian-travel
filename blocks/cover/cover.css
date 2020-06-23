@@ -1,6 +1,5 @@
 @import url(__title/cover__title.css);
 @import url(__subtitle/cover__subtitle.css);
-@import url(__overlay/cover__overlay.css);
 @import url(__link/cover__link.css);
 
 .cover {
@@ -9,9 +8,14 @@
   background-repeat: no-repeat;
   margin: 0 auto;
   text-align: center;
-  position: relative;
   background-position: center;
+  opacity: 0.8;
   z-index: 1;
+}
+
+.cover:hover {
+  opacity: 0.3;
+  transition: 1s ease-out;
 }
 
 @media screen and (min-width: 320px) {

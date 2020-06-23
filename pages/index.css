@@ -1,5 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../Inter-3.13/Inter_Web/inter.css);
+@import url(../Inter-3.13/Inter_Hinted_for_Windows/Web/inter.css);
+@import url(../blocks/index/index.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/intro/intro.css);
@@ -8,9 +10,3 @@
 @import url(../blocks/place/place.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
-
-.index {
-  background-color: #2a2c2f;
-  font-family: Inter;
-  color: #ffffff;
-}

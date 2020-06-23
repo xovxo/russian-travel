@@ -23,14 +23,13 @@
 
 @media screen and (min-width: 1024px) {
   .intro {
-    max-width: 690px;
+    max-width: 928px;
     margin-top: 92px;
-    margin-left: 48px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .intro {
-    margin-left: 148px;
+    max-width: 984px;
   }
 }

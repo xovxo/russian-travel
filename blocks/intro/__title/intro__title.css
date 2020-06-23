@@ -8,7 +8,6 @@
   .intro__title {
     font-size: 32px;
     line-height: 35px;
-    width: 288px;
   }
 }
 
@@ -16,12 +15,5 @@
   .intro__title {
     font-size: 54px;
     line-height: 58px;
-    width: 720px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .intro__title {
-    width: 690px;
   }
 }

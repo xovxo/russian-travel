@@ -3,11 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="pages/index.css" />
-    <link
-      rel="stylesheet"
-      href="Inter-3.13/Inter_Hinted_for_Windows/Web/inter.css"
-    />
-    <link rel="stylesheet" href="Inter-3.13/Inter_Web/inter.css" />
     <title>Путешевствие по Росии</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,21 +14,19 @@
       <header class="header">
         <div class="header__logo"></div>
         <div class="header__lang-links">
-          <button class="header__lang-link">Ru</button>
-          <button class="header__lang-link">En</button>
+          <a href="#" class="header__lang-link">Ru</a>
+          <a href="#" class="header__lang-link">En</a>
         </div>
       </header>
       <main class="content">
         <section class="lead">
-          <h1 class="lead__title">Путешевствия по Росии</h1>
+          <h1 class="lead__title">Путешествия по России</h1>
           <p class="lead__subtitle">
             Настоящая страна не в выпусках новостей, а здесь.
           </p>
 
-          <div class="lead__image">
-            <div class="lead__image_map"></div>
-          </div>
-          <p class="lead__caption">Ваша полка - верхняя</p>
+          <img src ="images/lead_girl_foto.jpg" class="lead__image"></img>
+          <figure  class="lead__caption">Ваша полка - верхняя</figure >
         </section>
 
         <section class="intro">
@@ -50,6 +43,7 @@
             стране. Мы выбрали и описали некоторые интересные места, достойные
             вашего отпуска.
           </p>
+
           <ul class="intro__list">
             <li class="intro__list-item">
               Часовых поясов
@@ -128,15 +122,15 @@
           />
         </section>
         <section class="places">
-          <div class="place">
+          <article class="place">
             <div class="place__up">
               <h2 class="place__title">Куршская коса</h2>
               <div class="place__website">
-                <p class="place__website__url-heading">URL</p>
+                <abbr class="place__website_url-heading">URL</abbr>
                 <a
                   href="
               http://park-kosa.ru"
-                  class="place__website__link"
+                  class="place__website_link"
                   >park-kosa.ru</a
                 >
               </div>
@@ -164,17 +158,17 @@
                 </p>
               </div>
             </div>
-          </div>
-          <div class="place">
+          </article>
+          <article class="place">
             <div class="place__up">
               <h2 class="place__title">Кольский</h2>
 
               <div class="place__website">
-                <p class="place__website__url-heading">URL</p>
+                <abbr class="place__website_url-heading">URL</abbr>
                 <a
                   href="
                   https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
-                  class="place__website__link"
+                  class="place__website_link"
                   >National Geographic</a
                 >
               </div>
@@ -202,17 +196,17 @@
                 </p>
               </div>
             </div>
-          </div>
-          <div class="place">
+          </article>
+          <article class="place">
             <div class="place__up">
               <h2 class="place__title">Алтай</h2>
 
               <div class="place__website">
-                <p class="place__website__url-heading">URL</p>
+                <abbr class="place__website_url-heading">URL</abbr>
                 <a
                   href="
                   https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
-                  class="place__website__link"
+                  class="place__website_link"
                   >Facebook</a
                 >
               </div>
@@ -236,17 +230,17 @@
                 </p>
               </div>
             </div>
-          </div>
-          <div class="place">
+          </article>
+          <article class="place">
             <div class="place__up">
               <h2 class="place__title">Зимний Байкал</h2>
 
               <div class="place__website">
-                <p class="place__website__url-heading">URL</p>
+                <abbr class="place__website_url-heading">URL</abbr>
                 <a
                   href="
                   https://vk.com/baikalmile"
-                  class="place__website__link"
+                  class="place__website_link"
                   >https://vk.com/baikalmile</a
                 >
               </div>
@@ -273,14 +267,14 @@
                 </p>
               </div>
             </div>
-          </div>
-          <div class="place">
+          </article>
+          <article class="place">
             <div class="place__up">
               <h2 class="place__title">Карелия</h2>
 
               <div class="place__website">
-                <p class="place__website__url-heading">URL</p>
-                <a href="http://vodlozero.ru" class="place__website__link"
+                <abbr class="place__website_url-heading">URL</abbr>
+                <a href="http://vodlozero.ru" class="place__website_link"
                   >http://vodlozero.ru/</a
                 >
               </div>
@@ -305,15 +299,15 @@
                   знали, кто тут хозяин
                 </p>
               </div>
-            </div>
-          </div>
+            <div>
+          </article>
         </section>
         <section class="cover">
           <a
             class="cover__link"
             href="https://stampsy.com/na-elektrichkakh-do-baikala"
           >
-            <div class="cover__overlay"></div>
+
             <h2 class="cover__title">До Байкала «на собаках»</h2>
             <p class="cover__subtitle">
               По мотивам учебной темы о Транссибе и iframes — путешествие от
@@ -324,7 +318,7 @@
       </main>
       <footer class="footer">
         <nav class="footer__links">
-          <ul>
+          <ul class="footer_links-ul">
             <li>
               <a
                 class="footer__link"
