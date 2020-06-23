@@ -2,7 +2,7 @@
   background-image: url(../../../../images/lead_map.svg);
   background-size: contain;
   margin: 0 auto;
-  margin-top: 90.21px;
+
   text-align: center;
   background-repeat: no-repeat;
 }
@@ -11,6 +11,7 @@
   .lead__image_map {
     width: 304.74px;
     height: 85.53px;
+    margin-top: 29.34px;
   }
 }
 
@@ -18,6 +19,7 @@
   .lead__image_map {
     width: 731.38px;
     height: 205.26px;
+    margin-top: 70.41px;
   }
 }
 
@@ -25,6 +27,7 @@
   .lead__image_map {
     width: 883.76px;
     height: 248.02px;
+    margin-top: 121.29px;
   }
 }
 
@@ -32,5 +35,6 @@
   .lead__image_map {
     height: 262.99px;
     width: 937.09px;
+    margin-top: 90.21px;
   }
 }
