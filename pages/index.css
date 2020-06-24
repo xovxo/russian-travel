@@ -1,6 +1,5 @@
 @import url(../vendor/normalize.css);
-@import url(../Inter-3.13/Inter_Web/inter.css);
-@import url(../Inter-3.13/Inter_Hinted_for_Windows/Web/inter.css);
+@import url(../fonts/fonts.css);
 @import url(../blocks/index/index.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/lead/lead.css);
